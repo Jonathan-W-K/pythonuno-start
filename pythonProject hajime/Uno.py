@@ -41,8 +41,23 @@ if I == 1 :
       print("X is odd NO.")
 else:
       print("X is even NO.")
+NAme = ["Hesbon", "Majid", "Ryan", "Mike", ""]
+for x in NAme:
+    print(x)
+    if x == "Ryan":
+        break
 
+# CONTINUE ikifikia chenye unataka itaruka iendele
+# break ita fika na i simame hapo
+
+x=0
+while x<=5 :
+  print("Shinee")
+  x+=1
+
+"""
 x=0
 while x<=5
   print("Shinee)
   x+=1
+"""
