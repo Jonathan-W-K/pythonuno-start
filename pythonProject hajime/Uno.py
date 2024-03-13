@@ -31,3 +31,14 @@ if constituency == "Embakasi" or "Kasarani" or "Westlands":
     print("Viable Candidate")
 else:
     print("Not Viable Candidate")
+
+result = "total is :" + str(total) + "KSH"
+
+X=27
+Y=2
+I=X % Y
+if I == 1 :
+      print("X is odd NO.")
+else:
+      print("X is even NO.")
+
