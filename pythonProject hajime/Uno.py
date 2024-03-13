@@ -42,3 +42,7 @@ if I == 1 :
 else:
       print("X is even NO.")
 
+x=0
+while x<=5
+  print("Shinee)
+  x+=1
