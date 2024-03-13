@@ -26,3 +26,8 @@ when naming the variables you cannot
 
 x = z = y = 50  # assigning multiple variables the same value
 x, y, z =30, 40, 70 # assigning variables different values
+
+if constituency == "Embakasi" or "Kasarani" or "Westlands":
+    print("Viable Candidate")
+else:
+    print("Not Viable Candidate")
