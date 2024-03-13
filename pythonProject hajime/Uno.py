@@ -47,7 +47,6 @@ for x in NAme:
     if x == "Ryan":
         break
 
-# CONTINUE ikifikia chenye unataka itaruka iendele
 # break ita fika na i simame hapo
 
 x=0
@@ -61,3 +60,11 @@ while x<=5
   print("Shinee)
   x+=1
 """
+
+# CONTINUE ikifikia chenye unataka itaruka iendele
+I=0
+while I < 6 :
+ I +=1
+ if I == 3:
+  continue
+ Print(I) 
