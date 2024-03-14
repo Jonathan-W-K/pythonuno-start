@@ -99,3 +99,14 @@ while x <= 10:
     x += 1
 else:
     print("end")
+
+
+x = 1
+while x <= 10:
+    if x == 3 or x == 5:
+        x += 1
+        continue
+    print("type your number:", x)
+    x += 1
+else:
+    print("end")
