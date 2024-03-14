@@ -68,3 +68,10 @@ while I < 6 :
  if I == 3:
   continue
  Print(I) 
+
+#if...else example
+age = 18 
+if age >= 18: 
+print('You are eligible to vote. ')
+else: print('You are not eligible to vote. ') 
+# Output: # 'You are eligible to vote.
