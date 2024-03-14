@@ -75,3 +75,27 @@ if age >= 18:
 print('You are eligible to vote. ')
 else: print('You are not eligible to vote. ') 
 # Output: # 'You are eligible to vote.
+
+country=input("Name of country:")
+if country == "Kenya":
+    print("East Africa")
+elif country == "UG":
+    print("East Africa")
+elif country == "Rwanda":
+    print("East Africa")
+elif country == "TZ":
+    print("East Africa")
+elif country == "Ethiopia":
+    print("East Africa")
+else:
+    print("Not in the database")
+
+x = 1
+while x <= 10:
+    if x == 3:
+        x += 1
+        continue
+    print("type your number:", x)
+    x += 1
+else:
+    print("end")
