@@ -110,3 +110,12 @@ while x <= 10:
     x += 1
 else:
     print("end")
+
+# there is a problem here ask later
+z=0
+s=1
+while s <= 10:
+        if s % 2 != 0:
+                z += s
+                s += 1
+                print(s)
