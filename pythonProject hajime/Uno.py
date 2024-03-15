@@ -119,3 +119,59 @@ while s <= 10:
                 z += s
                 s += 1
                 print(s)
+
+"""
+# ask later
+KE = 0
+UG = 0
+while KE >= 0 and UG >= 0:
+    input("Are you Kenyan?:")
+    if input("Are you Kenyan?") == "yes":
+        KE = KE + KE
+        continue
+    elif input("Are you Kenyan?") == "no":
+        UG += UG
+    print(KE + UG)
+"""
+
+"""
+NAme = ["Hesbon", "Majid", "Ryan", "Mike", ""]
+for x in NAme:
+    print(x)
+    if x == "Ryan":
+        break
+
+
+
+for y in range(1,6):
+    print("y")
+"""
+"""
+sum_odd=0
+for i in range(10):
+    if i%2!=0:
+         sum_odd += i
+         print("sum is:", sum_odd)
+"""
+
+"""
+t=0
+n=10
+for i in range(1,11,2):
+    t+=n
+    print(t)
+"""
+
+# students= list(["Hesbon", "Majid", "sdfgj"])
+# print(students)
+"""
+students = list()  # empty list
+#print(students)
+students = ["Hesbon", "Majid", "sdfgj"]  # full list
+#print(students)
+students.remove("Majid")
+print(students)
+"""
+
+p=[input("Enter Name:"), input("Enter Name:"), input("Enter Name:")]
+print(p)
